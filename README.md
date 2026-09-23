@@ -1,5 +1,7 @@
 # scoped-web-audit
 
+[![tests](https://github.com/ayronjins/scoped-web-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/ayronjins/scoped-web-audit/actions/workflows/tests.yml)
+
 A deliberately restricted evidence collector for web security assessments **you are authorised to perform**. It wraps `dig`, `curl`, `whatweb`, `openssl` and optionally `nmap`, and its main job is refusing to do anything outside a narrow, declared scope.
 
 This is a defensive tool. It collects evidence about a target you control. It does not exploit anything, and it is not built to.
